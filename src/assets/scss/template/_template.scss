@@ -1,0 +1,191 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles
+body,
+html,
+.body {
+  background: #f3f3f3 !important;
+}
+
+.header_container {
+  tbody > tr > td {
+    padding-top: 20px;
+    padding-right: 0px;
+  }
+
+  .header_left_column {
+    //padding-bottom: 0 !important;
+    img {
+      padding-bottom: 35px;
+    }
+  }
+
+  .header_right_column_first_row {
+    tbody > tr > th {
+      padding: 0;
+      text-align: right;
+    }
+
+    .header_links {
+      border-right: 0px solid rgb(204, 204, 204);
+      margin-right: 0px;
+      padding-right: 0px;
+      text-decoration: none;
+      color: rgb(0, 102, 153);
+      font: 12px/16px Arial, sans-serif;
+    }
+  }
+
+  .header_right_column_second_row {
+    h2 {
+      text-align: right;
+      font-size: 20px;
+      line-height: 24px;
+      margin: 0;
+      padding: 0;
+      font-weight: normal;
+      color: rgb(0, 0, 0) !important;
+    }
+
+    p {
+      font-size: 15px;
+      text-align: right;
+      a {
+        text-decoration: none;
+        color: rgb(0, 102, 153);
+        font: 12px/16px Arial, sans-serif;
+      }
+    }
+  }
+}
+
+.customer_message_container {
+  h3 {
+    font-size: 18px;
+    color: rgb(204, 102, 0);
+    margin: 0;
+    font-weight: normal;
+  }
+
+  p {
+    margin: 1px 0 8px 0;
+    font: 12px/16px Arial, sans-serif;
+  }
+}
+
+.delivery_date_container {
+  border-top: 3px solid black;
+
+  .delivery_date_left_column {
+    padding: 20px;
+    background-color: rgb(239, 239, 239);
+    // span {
+    //   font-size: 14px;
+    //   color: rgb(102, 102, 102);
+    // }
+  }
+
+  .delivery_date_right_column {
+    padding: 20px;
+    background-color: rgb(239, 239, 239);
+    // span {
+    //   font-size: 14px;
+    //   color: rgb(102, 102, 102);
+    // }
+  }
+
+  .delivery_date_info {
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+  }
+
+  .delivery_date_bold_info {
+    font-size: 14px;
+    color: black;
+    font-weight: 700;
+  }
+}
+
+.order_details_container {
+  .order_details_header {
+    padding: 0;
+    margin: 0;
+  }
+
+  .order_details_date {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+
+    span {
+      font-size: 12px;
+      color: rgb(102, 102, 102);
+    }
+  }
+
+  .order_details_product {
+    padding: 0;
+    margin: 0;
+    span {
+      color: rgb(102, 102, 102);
+      padding: 10px 0 10px 10px;
+      vertical-align: top;
+      font-size: 13px;
+      line-height: 18px;
+      font-family: Arial, sans-serif;
+    }
+    a {
+      text-decoration: none;
+      color: rgb(0, 102, 153);
+      font: 12px/16px Arial, sans-serif;
+    }
+  }
+
+  .order_details_product_price {
+    text-align: right;
+
+    span {
+      font-family: Arial, sans-serif;
+      line-height: 18px;
+      font-weight: 700;
+    }
+  }
+
+  .order_details_totals {
+    table > tbody > tr > th {
+      text-align: right;
+    }
+
+    span {
+      color: #333333;
+      text-align: right;
+      line-height: 18px;
+      padding: 0 10px 0 0;
+      vertical-align: top;
+      font-size: 13px;
+      font-family: Arial, sans-serif;
+    }
+  }
+
+  h3 {
+    font-size: 18px;
+    color: rgb(204, 102, 0);
+    margin: 15px 0 0 0;
+    font-weight: normal;
+  }
+}
+
+.footer_container {
+  span {
+    // margin: 1px 0 8px 0;
+    font: 12px/16px Arial, sans-serif;
+  }
+
+  p {
+    font-size: 10px;
+    color: rgb(102, 102, 102);
+    line-height: 16px;
+    margin: 0 10px 10px;
+  }
+}
